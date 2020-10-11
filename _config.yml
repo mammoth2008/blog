@@ -1,0 +1,29 @@
+# Site settings
+title: 人生玩家
+header-img: img/home-bg.jpg
+email:  mengma@vip.163.com
+twitter_username: mengma2008
+github_username:  mengma2008
+facebook_username:  叶猛犸
+email_username:  mengma@vip.163.com
+copyright_name: 叶猛犸 Based on Jekyll and CleanBlog theme
+baseurl: ""
+# cdn_path: http://ofsmsxsxo.bkt.clouddn.com
+# cdn_path: http://ogf87j9mp.bkt.clouddn.com
+cdn_path: ""
+# cdn_path: http://ogtp86yr1.bkt.clouddn.com
+
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+markdown_ext:  markdown,mkd,mkdn,md
+highlighter: rouge
+permalink: pretty
+paginate: 20
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

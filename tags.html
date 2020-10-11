@@ -1,0 +1,33 @@
+---
+layout: page
+title: Tags 标签
+description: "List is Beautiful Solution"
+permalink: /tags/
+header-img: "img/tags-bg.jpg"
+---
+<!-- <ul class="tags">
+    {% for tag in site.tags %}
+    <li>
+        <a href="#{{ tag[0] }}">{{ tag[0] }}</a> <sup>{{ tag[1].size }}</sup>
+    </li>
+    {% endfor %}
+</ul> -->
+
+{% for tag in site.tags %}
+    <a href="#{{ tag[0] }}">{{ tag[0] }}</a> <sup>{{ tag[1].size }} &nbsp;  &nbsp; &nbsp; &nbsp;</sup>
+{% endfor %}
+<p></p>
+<hr>
+<p></p>
+<ul class="listing">
+    {% for tag in site.tags %}
+    <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+    {% for post in tag[1] %}
+    <ul class="listing">
+    <li class="listing-item">
+        <a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m" }}</time> {{ post.title }}</a>
+    </li>
+    </ul>
+    {% endfor %}
+{% endfor %}
+</ul>

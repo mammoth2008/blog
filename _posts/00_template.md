@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      
+subtitle:   
+date:       2016-09-24 12:00:00
+author:    "猛犸"
+tags: 
+header-img: "img/2017-08-23-bg.jpg"
+---
+
+
+* 目录
+{:toc}
+
+
+如果要把某标题从目录树中排除，则在该标题的下一行写上 {:.no_toc}
+
+题头图片格式：img/2017-08-23-bg.jpg
+图片链接格式：/img/2020-05-08/2020-05-08-04-59-22.jpg
+图片格式和题头图片的格式是不同的，一个是相对链接，一个是绝对链接。
+
+使用 bundle exec jekyll build 构建网站
+使用 bundle exec jekyll server 后打开 localhost:4000 预览网站
+接下来是 git 三步：
+git add .
+git commit -m "comment"
+git push 

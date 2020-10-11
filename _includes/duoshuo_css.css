@@ -1,0 +1,77 @@
+
+#ds-thread #ds-reset .ds-sort {
+display:none !important;
+}/*隐藏最新最热等*/
+
+#ds-thread #ds-reset li.ds-tab a.ds-current{
+background:none !important;
+border:none !important;
+}/*隐藏评论总数背景及边框*/
+
+#ds-thread #ds-reset .ds-powered-by{
+display:none !important;
+}/*隐藏多说底部版权*/
+
+/*喜欢按钮*/
+#ds-reset a.ds-like-thread-button { display:none !important; }
+
+.ds-sync{
+display:none !important;
+}
+
+#ds-reset .ds-avatar img{
+width:54px;height:54px; /*设置图像的长和宽*/
+border-radius: 27px;/*设置图像圆角效果,在这里我直接设置了超过width/2的像素，即为圆形了*/
+-webkit-border-radius: 27px;/*圆角效果：兼容webkit浏览器*/
+-moz-border-radius:27px;
+box-shadow: inset 0 -1px 0 #3333sf;/*设置图像阴影效果*/
+-webkit-box-shadow: inset 0 -1px 0 #3333sf;
+}
+
+#ds-reset .ds-gradient-bg{
+background:none !important;
+}/*设置评论框下方渐变*/
+
+#ds-thread #ds-reset .ds-textarea-wrapper{
+    box-shadow: none !important;
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper textarea, #ds-thread #ds-reset .ds-textarea-wrapper .ds-hidden-text {
+font-family: 'Helvetica Neue','Lora', 'Times New Roman', serif !important;
+font-size:14px !important;
+border:none !important;
+border-radius: 0px !important;
+background-color: #fff !important;
+}/*定义评论框内字体*/
+
+#ds-thread #ds-reset .ds-rounded-top {
+border-top-right-radius: 0px !important;
+border-top-left-radius: 0px !important;
+margin-right: 54px !important;
+}
+
+#ds-thread #ds-reset .ds-post-options {
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+border-bottom-color: #ccc;
+margin-right: 154px !important;
+background-color: #fff !important;
+border-top-color: #fff !important;
+}
+
+#ds-thread #ds-reset .ds-post-button{
+font-family: 'Helvetica Neue','Lora', 'Times New Roman', serif !important;
+font-size:14px !important;
+background:none !important;
+color:#404040 !important;
+text-shadow: none !important;
+margin-right: 54px !important;
+border-bottom-right-radius: 0px !important;
+-webkit-border-bottom-right-radius: 0px !important;
+border-bottom-color: #ccc;
+}/*定义发布按钮字体以及渐变背景*/
+
+#ds-thread {background: #f8f8f5 !important;}
+
+#ds-thread #ds-reset .ds-toolbar-button.ds-add-emote{display:none !important;}
+
